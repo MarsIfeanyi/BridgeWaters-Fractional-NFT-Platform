@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+remappings = ['@openzeppelin=lib/openzeppelin-contracts/']
+
+verbosity=5
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+
+
+# Hint: This folder is the same as your hardhat.config
