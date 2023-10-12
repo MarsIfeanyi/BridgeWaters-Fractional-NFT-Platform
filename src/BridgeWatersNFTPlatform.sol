@@ -75,7 +75,7 @@ contract BridgeWatersNFTPlatform {
         emit NFTListed(msg.sender, _nftContract, _tokenId);
     }
 
-    function purchaseShares(
+    function purchaseNFT(
         address _nftContract,
         uint256 _tokenId,
         uint256 _sharesToPurchase
@@ -101,7 +101,7 @@ contract BridgeWatersNFTPlatform {
         emit NFTListed(msg.sender, _nftContract, _tokenId);
     }
 
-    function transferShares(
+    function transferNFT(
         address _nftContract,
         uint256 _tokenId,
         address _to,
